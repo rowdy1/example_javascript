@@ -1,0 +1,20 @@
+{
+  "name": "mochatest",
+  "version": "1.0.0",
+  "description": "Simple app for testing",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha ||exit 0"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0",
+    "papaparse": "^4.3.5"
+  },
+  "dependencies": {
+    "filereader": "^0.10.3",
+    "simple-statistics": "^4.1.1"
+  }
+}
